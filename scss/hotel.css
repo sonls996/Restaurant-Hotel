@@ -1,0 +1,21 @@
+html, body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+header .wrap {
+  width: 100%;
+}
+
+header .wrap .wrap-logo {
+  width: 180px;
+}
+
+header .wrap .wrap-logo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=hotel.css.map */
