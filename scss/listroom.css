@@ -1,0 +1,108 @@
+html,
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.listroom {
+  width: 100%;
+}
+
+.listroom .wrap {
+  max-width: 1200px;
+}
+
+.listroom .wrap .wrap-item {
+  width: 100%;
+}
+
+.listroom .wrap .wrap-item .wrap-item-anh {
+  height: 390px;
+}
+
+.listroom .wrap .wrap-item-detail {
+  padding: 20px;
+}
+
+.listroom .wrap .wrap-item-detail .wrap-item-detail-text h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #222222;
+  margin-bottom: 10px;
+}
+
+.listroom .wrap .wrap-item-detail .wrap-item-detail-text .ttt {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+.listroom .wrap .wrap-item-detail .wrap-item-detail-text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.listroom .wrap .wrap-item-detail .wrap-item-detail-text ul li p {
+  font-size: 18px;
+  font-weight: 300;
+  color: #0a1d3b;
+}
+
+.listroom .wrap .wrap-item-detail .wrap-item-detail-text ul li p i {
+  margin-right: 10px;
+}
+
+.listroom .wrap .wrap-item-detail-price .rating i {
+  color: #e9b947;
+}
+
+.listroom .wrap .wrap-item-detail-price .price {
+  background-color: #F5F5F5;
+}
+
+.listroom .wrap .wrap-item-detail-price .price h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0a1d3b;
+}
+
+.listroom .wrap .wrap-item-detail-price .price h3 {
+  font-size: 30px;
+  color: #222222;
+  font-weight: 300;
+  text-decoration: line-through;
+}
+
+.listroom .wrap .wrap-item-detail-price .price p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #222222;
+}
+
+.listroom .wrap .wrap-item-detail-price .price a {
+  background-color: #0A1D3B;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.listroom .wrap .wrap-item-detail-price .price a:hover {
+  background-color: #e9b947;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+@media (max-width: 1200px) {
+  .wrap-item {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrap-item-detail {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=listroom.css.map */

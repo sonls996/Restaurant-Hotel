@@ -1,0 +1,175 @@
+html,
+body {
+  font-family: "Raleway", sans-serif;
+}
+$trang: #fff;
+$den: #000000;
+$dodo: #c0392b;
+$cam: #d35400;
+$camnhat: #e67e22;
+$vang: #f1c40f;
+$vangcam: #f39c12;
+$tim: #8e44ad;
+$xanhdatroi: #2980b9;
+$xanhlacay: #27ae60;
+$greensea: #16a085;
+$bg: #f5f5f5;
+$chumo: #919191;
+$bg-button: #393939;
+
+.room {
+  background-attachment: fixed;
+  background-image: url(../images/sub-banner-hotel.jpg);
+  height: 600px;
+}
+
+.chitiet {
+  width: 100%;
+  .wrap {
+    max-width: 1200px;
+    .left {
+      .contain {
+        width: 100%;
+        .anhto {
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+        .tienich {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          margin: 0 5px;
+          .item {
+            margin-bottom: 20px;
+            .anh1 {
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+            }
+          }
+          .item:hover{
+            background-color: #EAEAEA;
+            transition: .6s;
+          }
+        }
+        .roomdes {
+          h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #222222;
+            margin-bottom: 15px;
+          }
+          p {
+            font-size: 16 px;
+            font-weight: 400;
+            line-height: 27px;
+            color: #222222;
+          }
+        }
+        .detail {
+          height: 55px;
+          line-height: 55px;
+          .chudam {
+            font-weight: 700;
+            color: #222222;
+            padding-right: 50%;
+            padding-left: 20px;
+          }
+        }
+        .l {
+          background-color: #f5f5f5;
+        }
+        .k {
+          background-color: #fcfcfc;
+        }
+      }
+    }
+    .right {
+      margin-top: 0;
+      .contain {
+        &-detail {
+          padding: 15px;
+          background-color: #0a1d3b;
+          .kk {
+            font-size: 56px;
+          }
+          .select {
+            width: 100%;
+            .day {
+              background-color: $trang;
+              margin-bottom: 5px;
+              height: 48px;
+              padding: 5px 10px;
+              p {
+                width: 90%;
+                height: 100%;
+                line-height: 48px;
+                padding-left: 5px;
+              }
+              i {
+                width: 10%;
+                line-height: 48px;
+                text-align: center;
+              }
+            }
+            .type {
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              height: 48px;
+              margin-bottom: 5px;
+              .nho {
+                display: flex;
+                width: 49%;
+                background-color: $trang;
+                line-height: 48px;
+                justify-content: space-between;
+                i {
+                  line-height: 48px;
+                  padding-right: 5px;
+                }
+                p {
+                  padding-left: 5px;
+                }
+              }
+              .lon {
+                display: flex;
+                width: 49%;
+                background-color: $trang;
+                line-height: 48px;
+                justify-content: space-between;
+                i {
+                  line-height: 48px;
+                  padding-right: 5px;
+                }
+                p {
+                  padding-left: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.hid {
+  display: none;
+}
+@media (max-width: 992px) {
+  .room {
+    height: 800px;
+  }
+  .hid {
+    display: block;
+  }
+  .right {
+    display: none;
+  }
+}

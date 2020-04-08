@@ -1,1 +1,81 @@
-/* No CSS *//*# sourceMappingURL=media.css.map */
+@media (max-width: 1500px) {
+  .wrap-menu a {
+    padding: 15px 20px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .right {
+    margin-top: 40px;
+  }
+  .right img {
+    width: 100% !important;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media (max-width: 992px) {
+  .text {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .check {
+    margin-top: 20px;
+  }
+  .kl {
+    margin: 0 auto;
+  }
+  .wrap-menu a {
+    padding: 15px !important;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .check {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .wrap-menu {
+    display: none;
+  }
+  .iconbar {
+    display: block !important;
+  }
+  .text h1 {
+    font-size: 45px !important;
+  }
+  .text p {
+    font-size: 20px !important;
+  }
+  .banner-title {
+    top: 40% !important;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+  .item {
+    margin-top: 20px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .item:not(:first-child) {
+    margin-top: 20px;
+  }
+  .item {
+    width: 100% !important;
+  }
+  .text h1 {
+    font-size: 38px !important;
+  }
+  .text p {
+    font-size: 20px !important;
+  }
+}
+/*# sourceMappingURL=media.css.map */

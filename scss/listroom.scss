@@ -1,0 +1,114 @@
+html,
+body {
+  font-family: "Raleway", sans-serif;
+}
+$trang: #fff;
+$den: #000000;
+$dodo: #c0392b;
+$cam: #d35400;
+$camnhat: #e67e22;
+$vang: #f1c40f;
+$vangcam: #f39c12;
+$tim: #8e44ad;
+$xanhdatroi: #2980b9;
+$xanhlacay: #27ae60;
+$greensea: #16a085;
+$bg: #f5f5f5;
+$chumo: #919191;
+$bg-button: #393939;
+
+.listroom {
+  width: 100%;
+  .wrap {
+    max-width: 1200px;
+    .wrap-item {
+      width: 100%;
+      .wrap-item-anh {
+        height: 390px;
+      }
+      &-detail {
+          padding: 20px;
+        .wrap-item-detail-text {
+          h1 {
+            font-size: 32px;
+            font-weight: 600;
+            color: #222222;
+            margin-bottom: 10px;
+          }
+          .ttt{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            margin-bottom: 20px;
+          }
+          p{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px; 
+          }
+          ul{
+              li{
+                  p{
+                    // font-weight: bold;
+                    font-size: 18px;
+                    font-weight: 300;
+                    color: #0a1d3b;
+                    i{
+                        margin-right: 10px;
+                    }
+                  }
+              }
+          }
+        }
+
+        &-price{
+          .rating{
+            i{
+              color: #e9b947;
+            }
+          }
+          .price{
+            background-color: #F5F5F5;
+            h1{
+              font-size: 40px;
+              font-weight: 700;
+              color: #0a1d3b;
+            }
+            h3{
+              font-size: 30px;
+              color: #222222;
+              font-weight: 300;
+              text-decoration: line-through;
+            }
+            p{
+              font-size: 14px;
+              font-weight: 400;
+              color: #222222;
+            }
+            a{
+              background-color: #0A1D3B;
+              color: $trang;
+              margin-bottom: 20px;
+            }
+            a:hover{
+              background-color: #e9b947;
+              transition: 1s;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width:1200px){
+  .wrap-item{
+    flex-wrap: wrap;
+  }
+}
+@media (max-width:767px){
+  .wrap-item-detail{
+    flex-wrap: wrap;
+  }
+}
