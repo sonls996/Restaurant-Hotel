@@ -62,3 +62,10 @@ function showSlides() {
 
   setTimeout(showSlides, 10000); // Change image every 2 seconds
 }
+
+
+
+function toggle(){
+  var info=document.getElementById("info-cart");
+  info.classList.toggle("dbi");
+}

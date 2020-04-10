@@ -102,7 +102,9 @@ $vangcut:#e9b947;
         
     }
 }
-
+.dbi{
+    display: block !important;
+}
 
 .active {
   background-color: #717171;
@@ -202,6 +204,7 @@ $vangcut:#e9b947;
                     cursor: pointer;
                 }
                 .info-cart{
+                    display: none;
                     position: absolute;
                     width: 345px;
                     background-color: $trang;

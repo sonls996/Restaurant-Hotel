@@ -94,6 +94,10 @@ body {
      object-fit: cover;
 }
 
+.dbi {
+  display: block !important;
+}
+
 .active {
   background-color: #717171;
 }
@@ -227,6 +231,7 @@ body {
 }
 
 .menu .menu-wrap .menu-wrap-contact .cart .info-cart {
+  display: none;
   position: absolute;
   width: 345px;
   background-color: #fff;
