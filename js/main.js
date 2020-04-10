@@ -14,21 +14,51 @@ function openNav() {
     scrollFunction()};
   
   function scrollFunction() {
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-      // document.getElementById("navbar").style.backgroundColor = "red";
-      // document.getElementById(navbar).style.height="150px";
-      document.getElementById("navbar").style.position="fixed ";
-      document.getElementById("navbar").style.top="0px";
-      document.getElementById("navbar").style.left="0px";
-      document.getElementById("navbar").style.right="0px";
-      document.getElementById("ctn").style.padding="0px";
-      document.getElementById("navbar").style.borderBottom="1px solid #d1d1d1";
-    } else {
-      document.getElementById("navbar").style.backgroundColor = "#f5f5f5";
-      document.getElementById("navbar").style.position="relative ";
-      document.getElementById("navbar").style.borderBottom="1px solid #f5f5f5";
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      document.getElementById("paddingmenu").style.padding="10px ";
+      document.getElementById("menu1").classList.add("bgw");
+      document.getElementById("menu1").classList.add("bdb");
+      let tttt=document.getElementsByClassName("textChange");
+      for(i=0;i<tttt.length;i++){
+        tttt[i].classList.add("chudenxi");
+      }
+      document.getElementById("logo").src="./images/logo.png";
+      document.getElementById("quantity").style.backgroundColor="#222222";
+      document.getElementById("quantity").style.color="#fff";
+      
 
-      // document.getElementById(navbar).style.height="100px";
-      // document.getElementsByClassName("nav-hidden-item").style.marginTop = "50px";
+    } else {
+      let tttt=document.getElementsByClassName("textChange");
+      document.getElementById("paddingmenu").style.padding = "25px";
+      document.getElementById("menu1").classList.remove("bgw");
+      document.getElementById("menu1").classList.remove("bdb");
+      for(i=0;i<tttt.length;i++){
+        tttt[i].classList.remove("chudenxi");
+      }
+      document.getElementById("logo").src="./images/logo2.png";
+      document.getElementById("quantity").style.backgroundColor="#fff";
+      document.getElementById("quantity").style.color="#222222";
     }
   }
+
+
+
+
+
+  var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+
+  slides[slideIndex-1].style.display = "block";  
+
+  setTimeout(showSlides, 10000); // Change image every 2 seconds
+}
