@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Pearl Menu</title>
+    <script src="https://kit.fontawesome.com/f1bce2ab63.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/media.css">
+    <link rel="stylesheet" href="./scss/Bapcai.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/restaurant.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/menufood.css">
+</head>
+
+<body>
+
+
+    <!-- menu -slider -title-->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+
+            <div class="khunganh"><img src="./images/sub-banner.jpg" alt=""></div>
+            <div class="text">
+                <div><img src="./images/flower.png" alt=""></div>
+                <h1 class="mgt30">King of food</h1>
+                <p class="mgt30 ttfu">the best restaurant in town</p>
+                <div class="dfgiua mgt50">
+                    <a href="#" class="btnnn">Booking Table now</a>
+                </div>
+
+            </div>
+
+            <div class="prv"></div>
+            <div class="nxt"></div>
+        </div>
+
+        <div class="mySlides fade">
+
+            <div class="khunganh"><img src="./images/menu-banenr-img5.jpg" alt=""></div>
+            <div class="text">
+                <div><img src="./images/flower.png" alt=""></div>
+                <h1 class="mgt30">King of food</h1>
+                <p class="mgt30 ttfu">the best restaurant in town</p>
+                <div class="dfgiua mgt50">
+                    <a href="#" class="btnnn">Booking Table now</a>
+                </div>
+
+            </div>
+
+            <div class="prv"></div>
+            <div class="nxt"></div>
+        </div>
+
+        <div class="mySlides fade">
+
+            <div class="khunganh"><img src="./images/menu-banenr-img6.jpg" alt=""></div>
+            <div class="text">
+                <div><img src="./images/flower.png" alt=""></div>
+                <h1 class="mgt30">King of food</h1>
+                <p class="mgt30 ttfu">the best restaurant in town</p>
+                <div class="dfgiua mgt50">
+                    <a href="#" class="btnnn">Booking Table now</a>
+                </div>
+
+            </div>
+
+            <div class="prv"></div>
+            <div class="nxt"></div>
+        </div>
+
+        <div class="mySlides fade">
+
+            <div class="khunganh"><img src="./images/menu-banenr-img7.jpg" alt=""></div>
+            <div class="text">
+                <div><img src="./images/flower.png" alt=""></div>
+                <h1 class="mgt30">King of food</h1>
+                <p class="mgt30 ttfu">the best restaurant in town</p>
+                <div class="dfgiua mgt50">
+                    <a href="#" class="btnnn">Booking Table now</a>
+                </div>
+
+            </div>
+
+            <div class="prv"></div>
+            <div class="nxt"></div>
+        </div>
+
+
+        <div id="menu1" class="menu">
+            <div id="paddingmenu" class="menu-wrap df">
+                <div class="menu-wrap-logo ">
+                    <a href="restaurant.html"><img id="logo" src="./images/logo2.png" alt=""></a>
+                </div>
+                <div class="menu-wrap-menu">
+                    <a id="hihihi" class="textChange" href="">home</a>
+                    <a class="textChange" href="">menu</a>
+                    <a class="textChange" href="">our story</a>
+                    <a class="textChange" href="">blog</a>
+                    <a class="textChange" href="">contact us</a>
+                    <a class="textChange" href="">online order</a>
+                </div>
+                <div class="menu-wrap-contact df pdl20 pdr20">
+                    <a class="pd15" href="#"><i style="font-size: 20px;"
+                            class="fas fa-phone-volume clw textChange"></i></a>
+                    <span class="clw pd15 textChange"> +123 22 33 44 55 </span>
+                    <div class="cart" onclick="toggle()">
+                        <i class="fas fa-shopping-cart clw pd15 textChange"></i>
+                        <div id="quantity" class="quantity">2</div>
+                        <div id="info-cart" class="info-cart bd1">
+                            <div class="cart-food arrow df">
+                                <div class="detail dfgiua">
+                                    <img src="./images/cart-food1.jpg" alt="">
+                                    <div class="txt">
+                                        <a class="clb" href="#">BLANCHED GARLIC</a>
+                                        <p>1 x $35.00</p>
+                                    </div>
+                                </div>
+                                <div class="buttoncls ">
+                                    <p style="background-color: #bf0707;">x</p>
+                                    <p style="background-color: #09c05a;">+</p>
+                                    <p>-</p>
+                                </div>
+                            </div>
+                            <div class="cart-food df">
+                                <div class="detail dfgiua">
+                                    <img src="./images/cart-food2.jpg" alt="">
+                                    <div class="txt">
+                                        <a class="clb" href="#">GREEN CHILE</a>
+                                        <p>2 x $35.00</p>
+                                    </div>
+                                </div>
+                                <div class="buttoncls ">
+                                    <p style="background-color: #bf0707;">x</p>
+                                    <p style="background-color: #09c05a;">+</p>
+                                    <p>-</p>
+                                </div>
+                            </div>
+                            <div class="sub-total">
+                                <div class="sub-total-price df jtfspb">
+                                    <p class=" ttfu clb">subtotal:</p>
+                                    <p class="fw7">$105.00</p>
+                                </div>
+                                <div class="sub-total-btn mgt20 df ">
+                                    <a class="btnn kl1 talc  " href="#">view cart</a>
+                                    <a class="btnn kl2 talc" href="#">check out</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div onclick="openNav()" class="icon-bar" ><i id="icon-barr" class="fas fa-bars"></i></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="wave">
+    </div>
+
+
+    <!--  món ăn trong ngày-->
+    <div class="special-food">
+        <div class="wrap w100 w-md90 w-sm90 w-xs90 mg0a  pdt100 ">
+            <div class="wrap-contain df  ">
+                <div class=" wrap-contain-anh col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <img src="./images/today-special.jpg" alt="" class="anhresize">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 detail pd20">
+                    <div class=" talc  hoalacanh mgt30">Today's</div>
+                    <div class="inhoatodung ttfu mgt20 talc">specials food</div>
+                    <div class="mgt30 talc"><img src="./images/res-heading-dark.png" alt=""></div>
+                    <div class=" price df jtfspb pd20 mgt50">
+                        <p class="fw4">Blue Cheese Crackers with Grapes</p> <span>$12</span>
+                    </div>
+                    <div class="mgt20 pd20">
+                        Chicken / Grapes / Pizza / Cheese / Herbs
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Món khai vị nhaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-->
+    <div class="start">
+        <div class=" hoalacanh  talc ">Starter</div>
+        <div class="inhoatodung ttfu talc mgt20">what in the beginning</div>
+        <div class="talc mgt20"><img src="./images/res-heading-dark.png" alt=""></div>
+
+
+        <div class="  wrap  mg0a mgt30 df pd15 w100 w-md90 w-sm90 w-xs90">
+            
+            <div class=" left col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="left-wrap pdr5">
+                    <img  src="./images/start-img.jpg" alt="" class="anhresize">
+                </div>
+            </div>
+
+            <div class="right pd5 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class=" price df jtfspb pdl20 pdr20 pdb20 ">
+                    <p class="fw6">Blue Cheese Crackers with Grapes</p> <span>$12</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / Herbs
+                </div>
+
+                <div class=" price df jtfspb pd20 ">
+                    <p class="fw6">Blue Cheese Crackers with King Grab</p> <span>$99</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / King grab
+                </div>
+            </div>
+        </div>
+
+        <div class="  wrap  mg0a mgt30 df pd15 w100 w-md90 w-sm90 w-xs90">
+            
+            <div class=" od1 left col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="left-wrap pdr5">
+                    <img  src="./images/start-img2.jpg" alt="" class="anhresize">
+                </div>
+            </div>
+
+            <div class="right od2 pd5 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class=" price df jtfspb pdl20 pdr20 pdb20 ">
+                    <p class="fw6">Blue Cheese Crackers with Grapes</p> <span>$12</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / Herbs
+                </div>
+
+                <div class=" price df jtfspb pd20 ">
+                    <p class="fw6">Blue Cheese Crackers with King Grab</p> <span>$99</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / King grab
+                </div>
+            </div>
+
+            
+        </div>
+
+        <div class="  wrap  mg0a mgt30 df pd15 w100 w-md90 w-sm90 w-xs90">
+            
+            <div class=" od1 left col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="left-wrap pdr5">
+                    <img style="height: 180px;"  src="./images/start-img3.jpg" alt="" class="anhresize">
+                </div>
+            </div>
+
+            <div class="right od2 pd5 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class=" price df jtfspb pdl20 pdr20 pdb20 ">
+                    <p class="fw6">Blue Cheese Crackers with Grapes</p> <span>$12</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / Herbs
+                </div>
+
+                <div class=" price df jtfspb pd20 ">
+                    <p class="fw6">Blue Cheese Crackers with King Grab</p> <span>$99</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / King grab
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="dfgiua"><a href="#" class="btnn talc">view full starter menu</a></div>
+    </div>
+
+
+    <!-- Món chínhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh-->
+    <div class="start">
+        <div class=" hoalacanh  talc ">Main Course</div>
+        <div class="inhoatodung ttfu talc mgt20">Hot  dishes</div>
+        <div class="talc mgt20"><img src="./images/res-heading-dark.png" alt=""></div>
+
+        <!-- row 1-->
+        <div class="  wrap  mg0a mgt30 df pd15 w100 w-md90 w-sm90 w-xs90">
+            
+            <div class=" od2 left col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="left-wrap pdr5">
+                    <img  src="./images/dish-img4.jpg" alt="" class="anhresize">
+                </div>
+            </div>
+
+            <div class="right od1 pd5 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class=" price df jtfspb pdl20 pdr20 pdb20 ">
+                    <p class="fw6">Blue Cheese Crackers with Grapes</p> <span>$12</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / Herbs
+                </div>
+
+                <div class=" price df jtfspb pd20 ">
+                    <p class="fw6">Blue Cheese Crackers with King Grab</p> <span>$99</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / King grab
+                </div>
+            </div>
+
+            
+        </div>
+
+        <!-- row 2-->
+        <div class="  wrap  mg0a mgt30 df pd15 w100 w-md90 w-sm90 w-xs90">
+            
+            <div class=" od1 left col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="left-wrap pdr5">
+                    <img  src="./images/dish-img3.jpg" alt="" class="anhresize">
+                </div>
+            </div>
+
+            <div class="right od2 pd5 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class=" price df jtfspb pdl20 pdr20 pdb20 ">
+                    <p class="fw6">Blue Cheese Crackers with Grapes</p> <span>$12</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / Herbs
+                </div>
+
+                <div class=" price df jtfspb pd20 ">
+                    <p class="fw6">Blue Cheese Crackers with King Grab</p> <span>$99</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / King grab
+                </div>
+            </div>
+
+            
+        </div>
+        <!-- row 3-->
+        <div class="  wrap  mg0a mgt30 df pd15 w100 w-md90 w-sm90 w-xs90">
+            
+            <div class=" od2 left col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="left-wrap pdr5">
+                    <img  src="./images/dish-img2.jpg" alt="" class="anhresize">
+                </div>
+            </div>
+
+            <div class="right od1 pd5 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class=" price df jtfspb pdl20 pdr20 pdb20 ">
+                    <p class="fw6">Blue Cheese Crackers with Grapes</p> <span>$12</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / Herbs
+                </div>
+
+                <div class=" price df jtfspb pd20 ">
+                    <p class="fw6">Blue Cheese Crackers with King Grab</p> <span>$99</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / King grab
+                </div>
+            </div>
+
+            
+        </div>
+
+         <!-- row 4-->
+         <div class="  wrap  mg0a mgt30 df pd15 w100 w-md90 w-sm90 w-xs90">
+            
+            <div class=" od1 left col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="left-wrap pdr5">
+                    <img  src="./images/humbeger.jpg" alt="" class="anhresize">
+                </div>
+            </div>
+
+            <div class="right od2 pd5 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class=" price df jtfspb pdl20 pdr20 pdb20 ">
+                    <p class="fw6">Blue Cheese Crackers with Grapes</p> <span>$12</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / Herbs
+                </div>
+
+                <div class=" price df jtfspb pd20 ">
+                    <p class="fw6">Blue Cheese Crackers with King Grab</p> <span>$99</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / King grab
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="dfgiua"><a href="#" class="btnn talc">view full main menu</a></div>
+    </div>
+
+
+     <!-- Món Phụ -->
+     <div class="start">
+        <div class=" hoalacanh  talc ">Soupes & Salad</div>
+        <div class="inhoatodung ttfu talc mgt20">side dishes</div>
+        <div class="talc mgt20"><img src="./images/res-heading-dark.png" alt=""></div>
+
+        <!-- row 1-->
+        <div class="  wrap  mg0a mgt30 df pd15 w100 w-md90 w-sm90 w-xs90">
+            
+            <div class=" od2 left col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="left-wrap pdr5">
+                    <img  src="./images/monphu.jpg" alt="" class="anhresize">
+                </div>
+            </div>
+
+            <div class="right od1 pd5 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class=" price df jtfspb pdl20 pdr20 pdb20 ">
+                    <p class="fw6">Blue Cheese Crackers with Grapes</p> <span>$12</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / Herbs
+                </div>
+
+                <div class=" price df jtfspb pd20 ">
+                    <p class="fw6">Blue Cheese Crackers with King Grab</p> <span>$99</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / King grab
+                </div>
+            </div>
+
+            
+        </div>
+
+        <!-- row 2-->
+        <div class="  wrap  mg0a mgt30 df pd15 w100 w-md90 w-sm90 w-xs90">
+            
+            <div class=" od2 left col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="left-wrap pdr5">
+                    <img  src="./images/monphu2.jpg" alt="" class="anhresize">
+                </div>
+            </div>
+
+            <div class="right od1 pd5 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class=" price df jtfspb pdl20 pdr20 pdb20 ">
+                    <p class="fw6">Blue Cheese Crackers with Grapes</p> <span>$12</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / Herbs
+                </div>
+
+                <div class=" price df jtfspb pd20 ">
+                    <p class="fw6">Blue Cheese Crackers with King Grab</p> <span>$99</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / King grab
+                </div>
+            </div>
+
+            
+        </div>
+        <!-- row 3-->
+        <div class="  wrap  mg0a mgt30 df pd15 w100 w-md90 w-sm90 w-xs90">
+            
+            <div class=" od2 left col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="left-wrap pdr5">
+                    <img  src="./images/monphu3.jpg" alt="" class="anhresize">
+                </div>
+            </div>
+
+            <div class="right od1 pd5 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class=" price df jtfspb pdl20 pdr20 pdb20 ">
+                    <p class="fw6">Blue Cheese Crackers with Grapes</p> <span>$12</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / Herbs
+                </div>
+
+                <div class=" price df jtfspb pd20 ">
+                    <p class="fw6">Blue Cheese Crackers with King Grab</p> <span>$99</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / King grab
+                </div>
+            </div>
+
+            
+        </div>
+
+         <!-- row 4-->
+         <div class="  wrap  mg0a mgt30 df pd15 w100 w-md90 w-sm90 w-xs90">
+            
+            <div class=" od2 left col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="left-wrap pdr5">
+                    <img  src="./images/humbeger.jpg" alt="" class="anhresize">
+                </div>
+            </div>
+
+            <div class="right od1 pd5 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class=" price df jtfspb pdl20 pdr20 pdb20 ">
+                    <p class="fw6">Blue Cheese Crackers with Grapes</p> <span>$12</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / Herbs
+                </div>
+
+                <div class=" price df jtfspb pd20 ">
+                    <p class="fw6">Blue Cheese Crackers with King Grab</p> <span>$99</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / King grab
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="dfgiua"><a href="#" class="btnn talc">view full middle menu</a></div>
+    </div>
+
+
+      <!-- Món  tráng miếng-->
+      <div class="start">
+        <div class=" hoalacanh  talc ">Drinks  & Desserts</div>
+        <div class="inhoatodung ttfu talc mgt20">Most delicious</div>
+        <div class="talc mgt20"><img src="./images/res-heading-dark.png" alt=""></div>
+
+        <!-- row 1-->
+        <div class="  wrap  mg0a mgt30 df pd15 w100 w-md90 w-sm90 w-xs90">
+            
+            <div class=" od1 left col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="left-wrap pdr5">
+                    <img  src="./images/trangmieng1.jpg" alt="" class="anhresize">
+                </div>
+            </div>
+
+            <div class="right od2 pd5 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class=" price df jtfspb pdl20 pdr20 pdb20 ">
+                    <p class="fw6">Blue Cheese Crackers with Grapes</p> <span>$12</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / Herbs
+                </div>
+
+                <div class=" price df jtfspb pd20 ">
+                    <p class="fw6">Blue Cheese Crackers with King Grab</p> <span>$99</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / King grab
+                </div>
+            </div>
+
+            
+        </div>
+
+        <!-- row 2-->
+        <div class="  wrap  mg0a mgt30 df pd15 w100 w-md90 w-sm90 w-xs90">
+            
+            <div class=" od1 left col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="left-wrap pdr5">
+                    <img  src="./images/trangmieng2.jpg" alt="" class="anhresize">
+                </div>
+            </div>
+
+            <div class="right od2 pd5 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class=" price df jtfspb pdl20 pdr20 pdb20 ">
+                    <p class="fw6">Blue Cheese Crackers with Grapes</p> <span>$12</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / Herbs
+                </div>
+
+                <div class=" price df jtfspb pd20 ">
+                    <p class="fw6">Blue Cheese Crackers with King Grab</p> <span>$99</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / King grab
+                </div>
+            </div>
+
+            
+        </div>
+        <!-- row 3-->
+        <div class="  wrap  mg0a mgt30 df pd15 w100 w-md90 w-sm90 w-xs90">
+            
+            <div class=" od1 left col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="left-wrap pdr5">
+                    <img  src="./images/trangmieng3.jpg" alt="" class="anhresize">
+                </div>
+            </div>
+
+            <div class="right od2 pd5 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class=" price df jtfspb pdl20 pdr20 pdb20 ">
+                    <p class="fw6">Blue Cheese Crackers with Grapes</p> <span>$12</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / Herbs
+                </div>
+
+                <div class=" price df jtfspb pd20 ">
+                    <p class="fw6">Blue Cheese Crackers with King Grab</p> <span>$99</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / King grab
+                </div>
+            </div>
+
+            
+        </div>
+
+         <!-- row 4-->
+         <div class="  wrap  mg0a mgt30 df pd15 w100 w-md90 w-sm90 w-xs90">
+            
+            <div class=" od1 left col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="left-wrap pdr5">
+                    <img  src="./images/trangmieng4.jpg" alt="" class="anhresize">
+                </div>
+            </div>
+
+            <div class="right od2 pd5 col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <div class=" price df jtfspb pdl20 pdr20 pdb20 ">
+                    <p class="fw6">Blue Cheese Crackers with Grapes</p> <span>$12</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / Herbs
+                </div>
+
+                <div class=" price df jtfspb pd20 ">
+                    <p class="fw6">Blue Cheese Crackers with King Grab</p> <span>$99</span>
+                </div>
+                <div class=" chumo mgt10 pd20">
+                    Chicken / Grapes / Pizza / Cheese / King grab
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="dfgiua"><a href="#" class="btnn talc">view full drinks & desserts menu</a></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Booking table here-->
+    <div class="book-table">
+        <div class="wrap  w100 w-md90 w-sm90 w-xs90 mg0a df">
+            <div class="wrap-book col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <div class="wrap-book-contain pd15">
+                    <div class="wrap-book-contain-title">
+                        <div>
+                            <h1 class="hoalacanh">Book a Table</h1>
+                        </div>
+                        <div class="inhoatodung mgt20 ttfu talc">reservation</div>
+                        <div class="mgt30 talc"><img src="./images/res-heading-dark.png" alt=""></div>
+                    </div>
+
+                    <div class="wrap-book-contain-form mgt50">
+                        <div class="row df">
+                            <div class="row-wrap df jtfspb">
+                                <div class=" inp bd1 col-lg-6 col-md-6 col-sm-12 col-xs-12  ">
+                                    <input type="text" placeholder="Your Name">
+                                </div>
+                                <div class=" inp bd1 col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+                                    <input type="text" placeholder="05/04/2020">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row df">
+                            <div class="row-wrap df jtfspb">
+                                <div class="inp bd1">
+                                    <input type="text" placeholder="Choose A Time"><i
+                                        class="fas fa-caret-down mgr5"></i>
+                                </div>
+                                <div class="inp bd1">
+                                    <input type="text" placeholder="Persons"><i class="fas fa-caret-down mgr5"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row df">
+                            <div class="row-wrap df jtfspb">
+                                <div class="inp bd1">
+                                    <input type="text" placeholder="Email Address">
+                                </div>
+                                <div class="inp bd1">
+                                    <input type="text" placeholder="Phone Number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mgt50 df">
+                            <div class="row-wrap df jtfspb">
+                                <div>
+                                    <a href="#">book a table</a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+    </div>
+    <!--hoa quả tươi -->
+    <div class="fresh">
+        <div style="flex-direction: column;" class="dfgiua fresh-wrap w100 w-md90ww-sm90 w-xs90">
+            <div class="contain ">
+                <p class="hoalacanh">“Fresh and healthy master of town”</p>
+                <div class="dfgiua mgt40"><a href="#" class="btnn">buy now <i class=" mgl10 fas fa-cart-plus"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wave">
+    </div>
+    <!-- Short info here-->
+
+
+
+
+    <div class="wave">
+    </div>
+    <!-- SHort info - thông tin nhanh-->
+    <div class="short-info">
+        <div class="wrap pdt100 pdb50 w100 w-md90 w-sm90 w-xs90 mg0a">
+            <div class="title">
+                <div class="hoalacanh talc ">Short Info</div>
+                <div class="inhoatodung mgt30 ttfu talc">get in touch</div>
+                <div class="mgt30 talc"><img src="./images/res-heading-dark.png" alt=""></div>
+                <div class="row df flww w100 w-md90 w-sm90 w-xs90 mg0a mgt40">
+                    <div class="row-item col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                        <div class="row-item-wrap pd15 ">
+                            <div class="">
+                                <div class="den32600 mgb40">Contact Us</div>
+                                <p class="mgt20">
+                                    Giving luxury feeling to our guests is our pleasure</p>
+                                <p class="mgt20"><i class="fas fa-phone-volume mgr10"></i> +123 22 33 44 55</p>
+                                <p class="mgt20"><i class="far fa-envelope mgr10"></i> sonlhepuit@gmail.com</p>
+                                <p class="mgt20"><i class="fas fa-map-marked-alt mgr10"></i> Phu Do,Ha Noi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--salad-->
+                    <div class="row-item col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                        <div class="row-item-wrap pd15 ">
+                            <div class="">
+                                <div class="den32600 mgb40">Opening Hour</div>
+                                <div class="df jtfspb mgb10"><span class="chuden fw6">Monday</span> <span>09 am -
+                                        10pm</span> </div>
+                                <div class="df jtfspb mgb10"><span class="chuden fw6">TuesDay</span> <span>09 am -
+                                        10pm</span> </div>
+                                <div class="df jtfspb mgb10"><span class="chuden fw6">Wednesday</span> <span>09 am -
+                                        10pm</span> </div>
+                                <div class="df jtfspb mgb10"><span class="chuden fw6">ThurDay</span> <span>09 am -
+                                        10pm</span> </div>
+                                <div class="df jtfspb mgb10"><span class="chuden fw6">Friday</span> <span>09 am -
+                                        10pm</span> </div>
+                                <div class="df jtfspb mgb10"><span class="chuden fw6">Saturday</span> <span>11h am -
+                                        8pm</span> </div>
+                                <div class="df jtfspb mgb10"><span class="chuden fw6">Sunday</span> <span>Closed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- couple area-->
+                    <div class="row-item col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                        <div class="row-item-wrap pd15 ">
+                            <div class="">
+                                <div class="den32600 mgb40">Instagram</div>
+                                <div class="df inst ">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pd5">
+                                        <img src="./images/instagram-img1.jpg" alt="" class="anhresize"> </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pd5">
+                                        <img src="./images/instagram-img2.jpg" alt="" class="anhresize"> </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pd5">
+                                        <img src="./images/instagram-img3.jpg" alt="" class="anhresize"> </div>
+                                </div>
+                                <div class="df inst ">
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pd5">
+                                        <img src="./images/instagram-img4.jpg" alt="" class="anhresize"> </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pd5">
+                                        <img src="./images/instagram-img5.jpg" alt="" class="anhresize"> </div>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 pd5">
+                                        <img src="./images/instagram-img6.jpg" alt="" class="anhresize"> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- Menu ngang sổ ra-->
+    <div id="mySidebar" class="nav__tablet-wrap">
+        <div class="nav__tablet-wrap-account">
+            <div onclick="closeNav()" class="closeNav" title="Bấm vào để đóng">x</div>
+            <div class="nav__tablet-wrap-account__icon">
+                <img class="anhresize" style="opacity: 1; border-radius: 50%;"  src="./images/icon_settings.jpg" alt="Lê Hồng Sơn" title="Bắp Đẹp Trai">
+            </div>
+            <!-- <div  id="clickme"  class="nav__tablet-wrap-account__info">Tài khoản  <i class="fas fa-caret-down"></i></div> -->
+        </div>
+        <!-- <div class="nav__tablet-wrap-login" id="mobile-wrapLogin">
+            <a href="#"> <i class="fas fa-sign-in-alt"></i> Đăng nhập</a>
+            <a href="#"> <i class="fas fa-sign-out-alt"></i>Đăng ký</a>
+            <a href="#"> <i class="fas fa-times-circle"></i>Thoát</a>
+        </div> -->
+        <div class="nav__tablet-wrap-menu">
+            <a href="#home"> <i class="fas fa-home"></i>Home</a>
+            <a href="#about"> <i class="fas fa-info-circle"></i>Menu</a>
+            <a href="#portfolio"> <i class="fas fa-user-secret"></i> Our Story</a>
+            <a href="#service"><i class="fab fa-servicestack"></i>Blog</a>
+            <a href="#blog"><i class="fas fa-edit"></i>Contact</a>
+            <a href="#contact"><i class="fab fa-connectdevelop"></i>Online oder</a>
+        </div>
+        <div class="nav__tablet-wrap-language">
+            <a href="#"><i class="fas fa-language"></i>LANGUAGE
+                <select name="" id="">
+                    <option value="">English</option>
+                    <option value="">Vietnamese</option>
+                    <option value="">Russian</option>
+                    <option value="">China</option>
+                    <option value="">Franch</option>
+                </select>
+            </a>
+            <a href="#"><i class="fas fa-phone-volume"></i>CAll  <span> +123 22 33 44 55</span></a>
+            <a href="#"><i class="fas fa-download"></i>DOWNLOAD APP </a>
+        </div>
+    </div>
+    <!-- footer ở đây nhé em ơi :D-->
+    <footer>
+        <div class="wrap w100 w-md90 w-sm90 w-xs90 mg0a talc">
+            <!-- About-->
+            <div class="about">
+                <!-- phần trên,tiêu đề about-->
+                <div class="top">
+                    <h1 class="fw7 talc">About Pearl</h1>
+                    <p class="fw4 talc">
+
+                        PEARL, whose mission is to bring on itself a luxurious space for customers, delicious food,
+                        comfortable space, high-class service style.
+                    </p>
+                </div>
+                <!-- Phần bên dưới about-->
+                <div class="bottom w100 w-md90 w-sm90 w-xs90 mg0a df">
+                    <!-- Col neww letter-->
+                    <div class="col mgt50 col-lg-6 col-md-6 col-sm-6 col-xs-12 pd15">
+                        <h1 class="den28700">News Letter</h1>
+                        <div class="list df jtfct">
+                            <div class="icon bd1"><i class="fab fa-facebook-f"></i></div>
+                            <div class="icon bd1"><i class="fab fa-instagram"></i></div>
+                            <div class="icon bd1"><i class="fab fa-twitter"></i></div>
+                            <div class="icon bd1"><i class="fab fa-google-plus-g"></i></div>
+                            <div class="icon bd1"><i class="fab fa-mandalorian"></i></div>
+                        </div>
+                    </div>
+
+                    <!-- coll follow along-->
+                    <div class="col mgt50 col-lg-6 col-md-6 col-sm-6 col-xs-12 pd15">
+                        <h1 class="den28700">Folow Along</h1>
+                        <form action="">
+
+                            <input type="text" placeholder="Enter your e-mail address">
+                            <div class="so dfgiua "><i class="far fa-envelope"></i></div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- coppy right ở đây nhé :D-->
+
+        </div>
+        <div class="copyright pdt40 pdb40 mg0a talc">
+            <p>Copyright © 2020 Pearl Hotel. All rights reserved. by <a class="tdcrtn clw" href="#">Le Hong Son</a>
+            </p>
+            <h1 class="mgt30 ttfu">
+                <a class="tdcrtn" href="#">PERMISSIONS AND COPYRIGHTS </a>
+                <span class="clw">-</span>
+                <a class="tdcrtn" href="#"> CONTACT US</a>
+            </h1>
+        </div>
+    </footer>
+
+
+    <!-- CDN Javascript and Bootstrap---------------------------------------------------------- start -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- CDN Javascript and Bootstrap---------------------------------------------------------- end  -->
+</body>
+
+</html>

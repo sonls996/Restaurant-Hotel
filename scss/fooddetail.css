@@ -1,0 +1,246 @@
+html,
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  width: 100%;
+  background-image: url(../images/bg.jpg);
+  background-repeat: repeat;
+}
+
+.food-detail {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.food-detail .wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.food-detail .wrap .col .anhto {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.food-detail .wrap .col .anhto img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.food-detail .wrap .col .row .row-anhbe img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.food-detail .wrap .col h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.food-detail .wrap .col .star i {
+  color: #b9b9b9;
+}
+
+.food-detail .wrap .col .price h2 {
+  color: #222222;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.food-detail .wrap .col .price span {
+  font-size: 20px;
+  color: #878787;
+  text-decoration: line-through;
+}
+
+.food-detail .wrap .col .bt .count .count-input {
+  width: 70px;
+  height: 38px;
+  overflow: hidden;
+}
+
+.food-detail .wrap .col .bt .count .count-input input {
+  height: 38px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.food-detail .wrap .col .titlee {
+  padding: 20px 0;
+}
+
+.food-detail .wrap .col .titlee p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.food-detail .wrap .col .titlee span {
+  color: #878787;
+}
+
+.food-detail .wrap .col .acco {
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.food-detail .wrap .col .acco p {
+  text-transform: uppercase;
+  color: #111111;
+  font-weight: 600;
+}
+
+.relate {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.relate .inhoatodung {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.relate .inhoatodung a {
+  color: #111111;
+  text-decoration: none;
+}
+
+.relate .lo {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.relate .relate-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.relate .relate-wrap .item .item-anh {
+  position: relative;
+}
+
+.relate .relate-wrap .item .item-anh img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.relate .relate-wrap .item .item-anh .hidden {
+  font-size: 12px;
+  padding: 15px 20px;
+  background-color: #111111;
+  color: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  height: 0%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.relate .relate-wrap .item .item-detail {
+  padding: 20px 10px;
+  border: 1px solid #ddd;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.relate .relate-wrap .item .item-detail h1 {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.relate .relate-wrap .item .item-detail-star i {
+  font-size: 12px;
+  color: #878787;
+}
+
+.relate .relate-wrap .item .item-detail p {
+  font-size: 14px;
+  color: #878787;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.relate .relate-wrap .item .item-detail .moredetail {
+  margin-top: 20px;
+}
+
+.relate .relate-wrap .item .item-detail .moredetail a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  background-color: #878787;
+  padding: 10px  20px;
+}
+
+.relate .relate-wrap .item .item-detail .moredetail:hover a {
+  background-color: #111111;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.relate .relate-wrap .item-anh:hover .hidden {
+  height: 28px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 1;
+}
+
+.btnn {
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .food-detail .wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .food-detail .wrap .col {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 578px) {
+  .relate .relate-wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .relate .relate-wrap .item {
+    width: 45%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (max-width: 575px) {
+  .relate-wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=fooddetail.css.map */

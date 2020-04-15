@@ -1,0 +1,82 @@
+html,
+body {
+  font-family: "Raleway", sans-serif;
+}
+$trang: #fff;
+$den: #000000;
+$dodo: #c0392b;
+$cam: #d35400;
+$camnhat: #e67e22;
+$vang: #f1c40f;
+$vangcam: #f39c12;
+$tim: #8e44ad;
+$xanhdatroi: #2980b9;
+$xanhlacay: #27ae60;
+$greensea: #16a085;
+$bg: #f5f5f5;
+$chumo: #919191;
+$bg-button: #393939;
+$chuden:#222222;
+$vangcut:#e9b947;
+
+
+
+
+body{
+    width: 100%;
+    background-image: url(../images/bg.jpg);
+    background-repeat: repeat;
+}
+
+.start{
+    // border-top: 1px solid #ddd;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .hoalacanh{
+        color: $vangcut;
+    }
+    width: 100%;
+    .wrap{
+        max-width: 1200px;
+        margin-bottom: 20px;
+    }
+    .right{
+        margin-top: 0;
+        .price{
+            border-bottom: 1px solid #ddd;
+            span{
+                color: $vangcut;
+                font-weight: 600;
+            }
+        }
+        .chumo{
+            color: #878787;
+            font-weight: 300;
+        }
+    }
+    .left-wrap{
+        img{
+            // width: 180px;
+            height: 200px;
+        }
+    }
+}
+
+
+
+.od1{
+    order: 1;
+}
+.od2{
+    order: 2;
+}
+@media(max-width:577px){
+    .start{
+        .wrap{
+            flex-wrap: wrap;
+        }
+        .left{
+            margin-bottom: 20px;
+        }
+    }
+}

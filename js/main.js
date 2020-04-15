@@ -25,6 +25,7 @@ function openNav() {
       document.getElementById("logo").src="./images/logo.png";
       document.getElementById("quantity").style.backgroundColor="#222222";
       document.getElementById("quantity").style.color="#fff";
+      document.getElementById("icon-barr").style.color="#222222";
       
 
     } else {
@@ -38,6 +39,8 @@ function openNav() {
       document.getElementById("logo").src="./images/logo2.png";
       document.getElementById("quantity").style.backgroundColor="#fff";
       document.getElementById("quantity").style.color="#222222";
+      document.getElementById("icon-barr").style.color="#fff";
+
     }
   }
 

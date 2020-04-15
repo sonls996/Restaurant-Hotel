@@ -1,0 +1,314 @@
+body, html {
+  overflow-x: hidden;
+}
+
+.form-contact {
+  background-color: #F6F7F8;
+}
+
+.form-contact .wrap {
+  padding: 40px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #F6F7F8;
+}
+
+.form-contact .wrap form {
+  padding: 20px;
+}
+
+.form-contact .wrap form .wrap-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: 000000;
+  line-height: 40px;
+}
+
+.form-contact .wrap form .wrap-form {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.form-contact .wrap form .wrap-form .input {
+  height: 40px;
+  background-color: #fff;
+  line-height: 40px;
+  width: 48%;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.form-contact .wrap form .wrap-form .input input {
+  width: 90%;
+  height: 38px;
+  padding-left: 30px;
+  outline: none;
+  border: none;
+}
+
+.form-contact .wrap form .wrap-form textarea {
+  padding: 20px;
+  resize: vertical;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form-contact .wrap form .wrap-form .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.form-contact .wrap form .wrap-form .btn input {
+  padding: 10px 40px;
+  color: #fff;
+  background-color: #262423;
+  outline: none;
+  border: none;
+}
+
+.slideshow-container {
+  position: relative;
+  background-attachment: fixed;
+  background-image: url(../images/contactus.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+}
+
+.slideshow-container .myslides {
+  position: relative;
+}
+
+.khatvong {
+  padding: 100px 0;
+  width: 100%;
+}
+
+.khatvong .wrap {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.khatvong .wrap .left h1 {
+  text-transform: uppercase;
+  font-size: 54px;
+  line-height: 62px;
+  font-weight: 600;
+  font-family: "Oswald";
+}
+
+.khatvong .wrap .left .red {
+  color: #d13138;
+  margin-top: 20px;
+}
+
+.khatvong .wrap .left p {
+  font-size: 17px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.khatvong .wrap .right img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.pagination li {
+  list-style: none;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.pagination li a {
+  color: #767676;
+  text-align: center;
+  text-decoration: none;
+}
+
+.pagination li:hover {
+  background-color: #262423;
+}
+
+.pagination li:hover a {
+  color: #fff;
+}
+
+.pagination .actt {
+  background-color: #262423;
+}
+
+.pagination .actt a {
+  color: #fff;
+}
+
+.blog {
+  background-color: #F6F7F8;
+  width: 100%;
+}
+
+.blog .blog-contain .right .right-wrap {
+  padding: 0 15px 15px 15px;
+}
+
+.blog .blog-contain .right .right-wrap .search {
+  background-color: #fff;
+  padding: 30px 20px 40px 20px;
+}
+
+.blog .blog-contain .right .right-wrap .search h1 {
+  font-family: "Oswald";
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 26px;
+}
+
+.blog .blog-contain .right .right-wrap .search .input {
+  margin-top: 20px;
+  height: 40px;
+}
+
+.blog .blog-contain .right .right-wrap .search .input input {
+  padding-left: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.blog .blog-contain .right .right-wrap .search .btn {
+  line-height: 40px;
+  padding: 0 10px;
+  border: 1px solid #A9A9A9;
+  border-left: none;
+}
+
+.blog .blog-contain .right .right-wrap .categories {
+  background-color: #fff;
+  margin: 30px 15px;
+  padding: 40px 20px;
+}
+
+.blog .blog-contain .right .right-wrap .categories h1 {
+  font-family: "Oswald";
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 26px;
+}
+
+.blog .blog-contain .right .right-wrap .categories .row {
+  margin-top: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.blog .blog-contain .right .right-wrap .categories .row .chu p {
+  font-size: 14px;
+  font-family: "Raleway";
+}
+
+.blog .blog-contain .right .right-wrap .recent-post {
+  background-color: #fff;
+  margin: 30px 15px;
+  padding: 40px 20px;
+}
+
+.blog .blog-contain .right .right-wrap .recent-post h1 {
+  font-family: "Oswald";
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 26px;
+}
+
+.blog .blog-contain .right .right-wrap .recent-post .post .row {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.blog .blog-contain .right .right-wrap .recent-post .post .row .row-img {
+  width: 40%;
+}
+
+.blog .blog-contain .right .right-wrap .recent-post .post .row .row-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.blog .blog-contain .right .right-wrap .recent-post .post .row .row-detail {
+  width: 60%;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blog .blog-contain .right .right-wrap .recent-post .post .row .row-detail p {
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.blog .blog-contain .right .right-wrap .recent-post .post .row .row-detail h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 700;
+  font-family: "Oswald";
+}
+
+.blog .blog-contain .right .right-wrap .tag {
+  background-color: #fff;
+  margin: 30px 15px;
+  padding: 40px 20px;
+}
+
+.blog .blog-contain .right .right-wrap .tag h1 {
+  font-family: "Oswald";
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 26px;
+}
+
+.blog .blog-contain .right .right-wrap .tag a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #F4F4F4;
+  color: #000000;
+  font-size: 12px;
+}
+
+@media (max-width: 767px) {
+  .wrap-form .input {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .khatvong .wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=lienhecompany.css.map */

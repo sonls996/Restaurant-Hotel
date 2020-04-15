@@ -1,0 +1,70 @@
+html,
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  width: 100%;
+  background-image: url(../images/bg.jpg);
+  background-repeat: repeat;
+}
+
+.start {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+
+.start .hoalacanh {
+  color: #e9b947;
+}
+
+.start .wrap {
+  max-width: 1200px;
+  margin-bottom: 20px;
+}
+
+.start .right {
+  margin-top: 0;
+}
+
+.start .right .price {
+  border-bottom: 1px solid #ddd;
+}
+
+.start .right .price span {
+  color: #e9b947;
+  font-weight: 600;
+}
+
+.start .right .chumo {
+  color: #878787;
+  font-weight: 300;
+}
+
+.start .left-wrap img {
+  height: 200px;
+}
+
+.od1 {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.od2 {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+@media (max-width: 577px) {
+  .start .wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .start .left {
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=menufood.css.map */

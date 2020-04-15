@@ -1,0 +1,249 @@
+html,
+body {
+  font-family: "Raleway", sans-serif;
+}
+$trang: #fff;
+$den: #000000;
+$dodo: #c0392b;
+$cam: #d35400;
+$camnhat: #e67e22;
+$vang: #f1c40f;
+$vangcam: #f39c12;
+$tim: #8e44ad;
+$xanhdatroi: #2980b9;
+$xanhlacay: #27ae60;
+$greensea: #16a085;
+$bg: #f5f5f5;
+$chumo: #919191;
+$bg-button: #393939;
+$chuden:#222222;
+$vangcut:#e9b947;
+
+
+
+
+body{
+    width: 100%;
+    background-image: url(../images/bg.jpg);
+    background-repeat: repeat;
+}
+
+.food-detail{
+    width: 100%;
+    padding: 100px 0;
+    .wrap{
+        max-width: 1200px;
+        margin: 0 auto;
+        .col{
+            .anhto{
+                width: 100%;
+                margin-bottom: 10px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .row{
+                .row-anhbe{
+                    // width: 100%;
+                    
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+            h1{
+                font-size: 40px;
+                font-weight: 600;
+                line-height: 50px;
+                color: $chuden;
+                text-transform: uppercase;
+            }
+            .star{
+                i{
+                    color: #b9b9b9;
+                }
+            }
+            .price{
+                h2{
+                    color: #222222;
+                    font-size: 26px;
+                    font-weight: 400;
+                }
+                span{
+                    font-size: 20px;
+                    color: #878787;
+                    text-decoration: line-through;
+                }
+            }
+            .bt{
+                .count{
+                    .count-input{
+                        width: 70px;
+                        height: 38px;
+                        overflow: hidden;
+                        input{
+                            height: 38px;
+                            border: none;
+                            outline: none;
+                            // text-align: center;
+                            padding-left: 10px;
+                        }
+                    }
+                }
+            }
+            .titlee{
+                padding: 20px 0;
+                p{
+                    font-size: 16px ;
+                    font-weight: 700;
+                    line-height: 16px;
+                    text-transform: uppercase;
+                    color: black;
+                }
+                span{
+                    color: #878787;
+                }
+            }
+            .acco{
+                padding: 20px;
+                border-top: 1px solid #ddd;
+                border-bottom: 1px solid #ddd;
+                p{
+                    text-transform: uppercase;
+                    color: #111111;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+
+.relate{
+    width: 100%;
+    padding: 100px 0;
+    .inhoatodung{
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        a{
+            color: #111111;
+            text-decoration: none;
+        }
+    }
+    .lo{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .relate-wrap{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        .item{
+            .item-anh{
+                position: relative;
+                img{
+                    width: 100%;
+                height: 100%;
+                object-fit: cover;
+                }
+                .hidden{
+                    font-size: 12px;
+                    padding: 15px 20px;
+                    background-color: #111111;
+                    color: $trang;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    opacity: 0;
+                    height: 0%;
+                    transition: 1s;
+                }
+            }
+            .item-detail{
+                padding: 20px 10px;
+                border: 1px solid #ddd;
+                box-shadow:  0px 0px 4px 0px rgba($color: #000000, $alpha: 0.1);
+                h1{
+                    font-size: 20px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+                &-star{
+                    i{
+                        font-size: 12px;
+                        color: #878787;
+                    }
+                }
+                p{
+                    font-size: 14px;
+                    color: #878787;
+                    margin-top: 10px;
+                    text-align: center;
+                }
+                .moredetail{
+                    margin-top: 20px;
+                    a{
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        font-size: 12px;
+                        color: #fff;
+                        text-align: center;
+                        background-color: #878787;
+                        padding: 10px  20px;
+                    }
+                }
+                .moredetail:hover{
+                    a{
+                        background-color: #111111;
+                        transition: 1s;
+                    }
+                }
+            }
+        }
+        .item-anh:hover{
+            .hidden{
+                height: 28px;
+                transition: 1s;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.btnn{
+    cursor: pointer;
+}
+
+@media (max-width:991px){
+    .food-detail{
+        .wrap{
+            flex-wrap: wrap;
+            .col{
+                margin-top: 30px;
+            }
+        }
+    }
+    
+}
+@media (max-width:991px) and (min-width:578px){
+    .relate{
+        .relate-wrap{
+            flex-wrap: wrap;
+            .item{
+                width: 45%;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+@media (max-width:575px){
+    .relate-wrap{
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,366 @@
+html,
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.room {
+  background-attachment: fixed;
+  background-image: url(../images/sub-banner-hotel.jpg);
+  height: 600px;
+}
+
+.chitiet {
+  width: 100%;
+}
+
+.chitiet .wrap {
+  max-width: 1200px;
+}
+
+.chitiet .wrap .left {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.chitiet .wrap .left .contain {
+  width: 100%;
+}
+
+.chitiet .wrap .left .contain .anhto img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.chitiet .wrap .left .contain .tienich {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin: 0 5px;
+}
+
+.chitiet .wrap .left .contain .tienich .item {
+  margin-bottom: 20px;
+}
+
+.chitiet .wrap .left .contain .tienich .item .anh1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.chitiet .wrap .left .contain .tienich .item:hover {
+  background-color: #EAEAEA;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.chitiet .wrap .left .contain .btnn:hover {
+  background-color: #0A1D3B;
+}
+
+.chitiet .wrap .left .contain .roomdes h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 15px;
+}
+
+.chitiet .wrap .left .contain .roomdes p {
+  font-size: 16 px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #222222;
+}
+
+.chitiet .wrap .left .contain .detail {
+  height: 55px;
+  line-height: 55px;
+}
+
+.chitiet .wrap .left .contain .detail .chudam {
+  font-weight: 700;
+  color: #222222;
+  padding-left: 20px;
+  width: 50%;
+}
+
+.chitiet .wrap .left .contain .l {
+  background-color: #f5f5f5;
+}
+
+.chitiet .wrap .left .contain .k {
+  background-color: #fcfcfc;
+}
+
+.chitiet .wrap .right {
+  margin-top: 0;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.chitiet .wrap .right .contain-detail {
+  padding: 15px;
+  background-color: #0a1d3b;
+}
+
+.chitiet .wrap .right .contain-detail .kk {
+  font-size: 56px;
+}
+
+.chitiet .wrap .right .contain-detail .select {
+  width: 100%;
+}
+
+.chitiet .wrap .right .contain-detail .select .day {
+  background-color: #fff;
+  margin-bottom: 5px;
+  height: 48px;
+  padding: 5px 10px;
+}
+
+.chitiet .wrap .right .contain-detail .select .day p {
+  width: 90%;
+  height: 100%;
+  line-height: 48px;
+  padding-left: 5px;
+}
+
+.chitiet .wrap .right .contain-detail .select .day i {
+  width: 10%;
+  line-height: 48px;
+  text-align: center;
+}
+
+.chitiet .wrap .right .contain-detail .select .type {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 48px;
+  margin-bottom: 5px;
+}
+
+.chitiet .wrap .right .contain-detail .select .type .nho {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 49%;
+  background-color: #fff;
+  line-height: 48px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.chitiet .wrap .right .contain-detail .select .type .nho i {
+  line-height: 48px;
+  padding-right: 5px;
+}
+
+.chitiet .wrap .right .contain-detail .select .type .nho p {
+  padding-left: 5px;
+}
+
+.chitiet .wrap .right .contain-detail .select .type .lon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 49%;
+  background-color: #fff;
+  line-height: 48px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.chitiet .wrap .right .contain-detail .select .type .lon i {
+  line-height: 48px;
+  padding-right: 5px;
+}
+
+.chitiet .wrap .right .contain-detail .select .type .lon p {
+  padding-left: 5px;
+}
+
+.hid {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .room {
+    height: 800px;
+  }
+  .right {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .left {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+.babuoc {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.babuoc .babuoc-wrap {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.babuoc .babuoc-wrap .thanhngang {
+  height: 18px;
+  background: #F4F4F4;
+  border-radius: 15px;
+  position: relative;
+}
+
+.babuoc .babuoc-wrap .thanhngang .item {
+  position: absolute;
+  top: -40px;
+}
+
+.babuoc .babuoc-wrap .thanhngang .item .buoc1 {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 5px solid #f4f4f4;
+  margin-top: 15px;
+  z-index: 2;
+  font-size: 18px;
+}
+
+.babuoc .babuoc-wrap .thanhngang .item div {
+  padding: 10px;
+}
+
+.babuoc .babuoc-wrap .thanhngang .act {
+  background-color: #E9B947 !important;
+  color: #fff !important;
+}
+
+.babuoc .babuoc-wrap .thanhngang .item1 {
+  left: 25%;
+}
+
+.babuoc .babuoc-wrap .thanhngang .item2 {
+  left: 50%;
+}
+
+.babuoc .babuoc-wrap .thanhngang .item3 {
+  left: 75%;
+}
+
+.contact {
+  padding: 60px 0 60px 0;
+  width: 100%;
+  background-color: #fff;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.contact .contact-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact .contact-wrap-title {
+  font-size: 21px;
+  color: #707070;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 30px 0;
+}
+
+.contact .contact-wrap-form form .phuongtien h1 {
+  line-height: 20px;
+  color: #333333;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.contact .contact-wrap-form form .phuongtien .input {
+  margin-top: 10px;
+  height: 40px;
+  width: 100%;
+}
+
+.contact .contact-wrap-form form .phuongtien .input select {
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.contact .contact-wrap-form form .phuongtien .input input {
+  height: 40px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.contact .contact-wrap-form form .canhan {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contact .contact-wrap-form form .canhan .item {
+  width: 45%;
+  margin-top: 20px;
+}
+
+.contact .contact-wrap-form form .canhan .item h1 {
+  line-height: 20px;
+  color: #333333;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.contact .contact-wrap-form form .canhan .item input {
+  margin-top: 10px;
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.contact .contact-wrap-form form .canhan .item select {
+  margin-top: 10px;
+  height: 40px;
+  outline: none;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.contact .contact-wrap-form form .butten {
+  width: 60px;
+  height: 40px;
+  background-color: #c0392b;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .item {
+    width: 100% !important;
+  }
+}
+/*# sourceMappingURL=checkoutroom.css.map */
